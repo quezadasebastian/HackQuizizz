@@ -1,0 +1,17 @@
+# Dependencias de Node.js
+node_modules/
+
+# Variables de entorno y claves privadas
+.env
+
+# Perfiles del navegador, caché, cookies y sesiones locales
+.browser-user-profile/
+.chromium-experimental-profile/
+.*-profile/
+
+# Registros de auditoría y reportes generados en ejecución
+session_audit.jsonl
+automation_report.md
+test_run_results.json
+phase8_validation_report.json
+*.log

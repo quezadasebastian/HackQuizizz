@@ -1,0 +1,25 @@
+{
+  "name": "chromium-quizzis-assistant",
+  "version": "1.0.0",
+  "description": "Copiloto autónomo de evaluación y auditoría con HUD pasivo sin pérdida de foco para Wayground/Quizizz",
+  "main": "automation_runner.mjs",
+  "scripts": {
+    "start": "node automation_runner.mjs",
+    "browser": "node browser_runner.mjs",
+    "lab": "node lab/server.mjs",
+    "test:experimental": "node chromium_experimental.mjs"
+  },
+  "keywords": [
+    "playwright",
+    "chromium",
+    "gemini",
+    "wayground",
+    "quizizz"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.64.1"
+  }
+}
